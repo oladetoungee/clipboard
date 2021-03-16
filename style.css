@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: gray;
+    
+   
+}
+
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+.backgroundimg{
+    width: 100%;
+}
+
+/*TYPOGRAPHY...........*/
+h1,
+h2,
+h3{
+    font-weight: 1000;
+    letter-spacing: .2em;
+    color: black;
+    line-height: 3em;
+}
+p{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+
+.article-sec-info{
+   line-height: 2em;
+    
+}
+
+
+
+
+/*links........*/
+.header-link{
+    margin: 5em 1.5em;
+}
+.link-ios{
+    background-color:lightgreen;
+    border-radius: 50px;
+    padding: 1.5em;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.link-mac{
+    background-color: lightblue;
+    border-radius: 50px;
+    padding: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+/*LAYOUT...............*/
+
+.logoimg{
+    margin-top: -15em;
+   
+}
+.small-container,
+.article-6,
+.article-5,
+.article-3,
+.article-1{
+    margin-top: 7em;
+}
+.article-sec{
+    display: flex;
+    margin-left: -7em;
+    margin-top: 7em;
+    
+}
+
+.article-sec-2{
+    display: flex;
+   
+}
+
+.article-img-2,
+.article-2{
+    margin-top: 7em;
+    
+}
+.tools-1,
+.tools-2,
+.tools-3{
+    width: 35%;
+    margin: 2em 2em;
+}
+    
+.img-1,
+.img-2{
+    width: 15%;
+    margin: 2em 2em;
+}
+
+.small-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightcyan;
+    padding: 2em 2em;
+}
+.small-container5,
+.small-container4,
+.small-container2,
+.small-container3{
+    width: 20%;
+}
+.small-logo{
+    width: 50%;
+}
+
+/*MEDIA................*/
+@media (max-width:375px) {
+    p,
+    body{
+        width: 100%;
+    }
+    .article-5,
+   .header-link{
+       display: flex;
+       flex-direction: column;
+   }
+    .article-sec{
+        flex-direction: column;
+    }
+    .small-container,
+    .article-sec-2{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .small-container5,
+    .small-container4,
+    .small-container2,
+    .small-container3{
+    width: 100%;
+}
+.article-sec{
+    margin-left: 0;
+}
+.link-ios,
+.link-mac{
+    margin: 1.5em 0;
+}
+
+.article-5{
+    align-items: center;
+}
+.tools-1,
+.tools-2,
+.tools-3{
+    width: 100%;
+    margin: 2em 2em;
+}
+h1,
+h2,
+h3{
+    line-height: 1em;
+}
+    
+
+}
